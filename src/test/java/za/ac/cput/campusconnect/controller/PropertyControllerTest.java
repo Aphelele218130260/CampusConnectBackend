@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 public class PropertyControllerTest {
     @Autowired
     private TestRestTemplate restTemplate;
-    private final String BASE_URL= "/property";
+    private final String BASE_URL= "http://localhost:8080/CampusConnectDb/property";
     private static Property property;
     private static Business business;
 

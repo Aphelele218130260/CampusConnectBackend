@@ -17,7 +17,7 @@ public class BusinessControllerTest {
 
         @Autowired
         private TestRestTemplate restTemplate;
-        private final String BASE_URL= "/business";
+        private final String BASE_URL="http://localhost:8080/CampusConnectDb/business";
         private static Business business;
 
         @BeforeAll
